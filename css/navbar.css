@@ -1,0 +1,37 @@
+.zold-bg{
+    background-color:rgb(179, 203, 118);
+    font-family: Verdana;
+}
+
+ul > .nav-item:first-child{
+    font-size: 1.2em;
+}
+
+.nav-item a{
+    color: black;
+}
+
+/*remove the white background  from the search input*/
+.form-control{
+    background-color: transparent;
+    border: none;
+}
+/*remove the outline from the magnifying glass icon from font awesome*/
+.magnifier{
+    background-color: transparent;
+}
+
+.navbar-nav > li:nth-last-child(2) > a{
+    color: white;
+    background-color: darkblue;
+}
+
+.navbar-nav > .nav-item > form > .form-control{
+    width: 6em;
+}
+
+/* color the active nav-item dark blue */
+.navbar-nav > .nav-item.active > a{
+    color: darkblue;
+    font-size: 1.2em;
+}

@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/hamburger.css">
+  <link rel="stylesheet" href="css/jumbotron.css">
+  <link rel="stylesheet" href="css/misc.css">
+  <link rel="stylesheet" href="css/dropdown.css">
+  <title>Hello, world!</title>
+</head>
+
+<body>
+
+  <!-- Font Awesome Kit -->
+  <script src="https://kit.fontawesome.com/e3ac58ec42.js" crossorigin="anonymous"></script>
+
+  <div class="container-fluid zold-bg">
+    <nav class="navbar navbar-expand-lg">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+        </span>
+      </button>
+      <!-- navbar toggles elements -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <!-- Home, Services, Portfolio, Blog, Contact Us, Careers-->
+        <ul class="navbar-nav container-fluid d-flex align-items-center">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Én kicsi házim</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Föoldal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Egyik</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Masik</a>
+          </li>
+          <li class="nav-item ms-lg-auto">
+            <a class="btn btn-primary" href="#">Belépés</a>
+          </li>
+          <li class="nav-item">
+            <!-- Login button, Magnifier, Search Bar-->
+            <form class="d-flex">
+              <button class="btn magnifier" type="submit">
+                <i class="fa fa-search fa-xl"></i>
+              </button>
+              <input type="text" class="form-control" placeholder="Keresés">
+            </form>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!-- create a hero with articles in the form of cards -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Fluid jumbotron</h1>
+      <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+      <!-- jump to bottom-->
+      <a href="#bottom" class="btn btn-primary btn-lg" role="button" aria-disabled="true">Legördül az aljára</a>
+    </div>
+  </div>
+
+  <div class="container-fluid py-4">
+    <div class="row container-fluid pb-4" id="row-title">
+      Kiemelt Ajánlatok
+    </div>
+    <div class="row" id="kepek">
+      <!-- column 1 -->
+      <div class="col-sm-4 col-12">
+        <div class="card">
+          <img src="/img/kawaguchiko.jpg" class="card-img-top" alt="Kawaguchiko">
+          <div class="card-body">
+            <div class="container d-flex justify-content-between align-content-center pb-4 ps-0 pe-0">
+              <span class="card-title">Kawaguchiko</span>
+              <span class="badge text-bg-primary" sty>Legnepszerübb</span>
+            </div>
+            <span class="card-text">1.550.000Ft</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- column 2 -->
+      <div class="col-sm-4 col-12">
+        <div class="card">
+          <img src=" img/kohkood.jpg" class="card-img-top" alt="KohKood Thailand">
+          <div class="card-body">
+            <!-- travel destination and popularity -->
+            <div class="container d-flex align-content-center pb-4 justify-content-between ps-0 pe-0">
+              <span class="card-title">KohKood</span>
+              
+            </div>
+
+            <span class="card-text d-flex justify-content-end">1.300.000 Ft</span>
+          </div>
+        </div>
+
+      </div>
+      <!-- column 3 -->
+      <div class="col-sm-4 col-12">
+        <div class="card">
+          <img src="img/LumpiniPark.jpeg" class="card-img-top" alt="Lumpini Park">
+          <div class="card-body">
+            <div class="container d-flex align-content-center justify-content-between ps-0 pe-0 pb-4">
+              <span class="card-title">Lumpini Park</span>
+              <span class="badge text-bg-success">Legolcsobb</span>
+            </div>
+            <span class="card-text d-flex justify-content-end">1.200.000 Ft</span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="row container-fluid pb-4" id="row-title">
+      Varosok
+    </div>
+
+    <div class="row d-flex justify-content-evenly" id="celok">
+
+      <!--Europa -> Becs, Budapest, Praga-->
+      <div class="col-sm-3 col ms-1">
+        <div>Europa</div>
+        <div class="d-flex flex-column">
+          <!-- <div>Becs</div>
+          <div>Budapest</div>
+          <div>Praga</div> -->
+          <a href="" class="link">Becs</a>
+          <a href="" class="link">Budapest</a>
+          <a href="" class="link">Praga</a>
+        </div>
+      </div>
+
+      <!--Azsia -> Peking, Shanghaj, Tokio-->
+      <div class="col-sm-3 col">
+        <div>Azsia</div>
+        <div class="d-flex flex-column">
+          <!-- <div>Peking</div>
+          <div>Shanghaj</div>
+          <div>Tokio</div> -->
+          <a href="" class="link">Peking</a>
+          <a href="" class="link">Shanghaj</a>
+          <a href="" class="link">Tokio</a>
+        </div>
+      </div>
+
+      <!--Afrika -> Kairó, Nairobi, Johannesburg-->
+      <div class="col-sm-3 col">
+        <div>Afrika</div>
+        <div class="d-flex flex-column">
+          <!-- <div>Kairó</div>
+          <div>Nairobi</div>
+          <div>Johannesburg</div> -->
+          <a href="" class="link">Kairó</a>
+          <a href="" class="link">Nairobi</a>
+          <a href="" class="link">Johannesburg</a>
+        </div>
+      </div>
+
+      <!--Amerika -> New York, Los Angeles, Rio de Janeiro-->
+      <div class="col-sm-2 col">
+        <div>Amerika</div>
+        <div class="d-flex flex-column">
+          <!-- <div>New York</div>
+          <div>Los Angeles</div>
+          <div>Rio de Janeiro</div> -->
+          <a href="" class="link">New York</a>
+          <a href="" class="link">Los Angeles</a>
+          <a href="" class="link">Rio de Janeiro</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  </div>
+
+  <div class="container-fluid d-flex flex-column" style="background-color: rgb(202, 202, 202);" id="offer-form">
+
+    <p class="text-left" style="font-weight: bold; justify-self: start;">Pazarolja el nálunk a pénzét!
+    </p>
+
+    <form class="ms-auto me-auto  mb-3 col-sm-8 col-12">
+      <div class="d-flex flex-column">
+        <div class="pb-2 d-flex flex-column">
+          <label for="email">Email cim</label>
+          <input type="email" name="email" id="email" placeholder="Enter email">
+          <p style="color:rgb(131, 130, 130)">We'll never share your email with anyone else.</p>
+        </div>
+
+        <div class="pb-2 d-flex flex-column">
+          <label for="varos">Melyik varos erdekli</label>
+          <input type="text" name="varos" id="varos" placeholder="Kezdjen gepelni!">
+        </div>
+
+        <div class="pb-2 d-flex flex-column">
+          <label for="ar">Mennyit hajlando fizetni</label>
+          <!-- input the amount and select the currency from a dropdown-->
+          <div>
+            <input type="text" style="width: 79%;">
+            <select name="" id="" style="width: 19%">
+              <option value="">Forint</option>
+              <option value=""></option>
+              <option value=""></option>
+            </select>
+          </div>
+        </div>
+        <!--bottom which we jump to-->
+        <input type="button" class="btn btn-danger p-0 " value="Elküldöm" id="bottom">
+      </div>
+
+    </form>
+
+  </div>
+
+  
+ 
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>

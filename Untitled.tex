@@ -1,0 +1,65 @@
+\documentclass[a4paper]{article}
+\usepackage{geometry}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[most]{tcolorbox}
+\usepackage{tikz}
+\usepackage{ulem}
+\usepackage{graphicx}
+
+\geometry{
+    a4paper,
+    left=0.1cm,
+    right=0.1cm,
+    top=0.1cm,
+    bottom=0.1cm
+}
+
+\definecolor{titleback}{RGB}{0,66,21}
+
+\begin{document}
+
+\tcbset{colframe=white,colback=White,arc=3mm}
+\begin{tcolorbox}[width=\textwidth]	
+\makebox[\textwidth][c]{\Huge Ábel Kecse}
+\end{tcolorbox}
+
+\begin{tcolorbox}[width=\textwidth]
+\begin{tabular}[t]{l p{11.5cm}}
+    \parbox[b]{0.3\columnwidth}{
+        \begin{tabular}{l}
+            \textcolor{Black}{\LARGE Info} \\
+            \begin{tikzpicture}
+                \path [fill=Black, draw=none, rounded corners=2] (0, 0) rectangle (0.6, 0.1) {};
+            \end{tikzpicture} \\
+            \\
+            \textcolor{Gray}{\large \textbf{Location /}} \\
+            \textcolor{Gray}{\large \textbf{Wohnort}} \\
+            \textcolor{Gray}{04159, Leipzig} \\
+            \\
+            \\
+            \textcolor{Gray}{\large \textbf{E-Mail}} \\
+            \textcolor{Gray}{abel\_7910@hotmail.com} \\
+            \\
+            \\
+            \textcolor{Gray}{\large \textbf{Mobile /}} \\
+            \textcolor{Gray}{\large \textbf{Handynummer}} \\
+            \textcolor{Gray}{017689041068} \\
+            \\
+            \\
+            \textcolor{Black}{\LARGE Skills /} \\
+            \textcolor{Black}{\LARGE Kompetenzen} \\
+            \begin{tikzpicture}
+                \path [fill=Black, draw=none, rounded corners=2] (0, 0) rectangle (0.6, 0.1) {};
+            \end{tikzpicture}
+        \end{tabular}
+    }
+    &
+    \begin{tabular}{c}
+        \includegraphics[width=3cm]{image1.jpg} \\[2ex]
+        \includegraphics[width=4cm]{image1.jpg} \\[2ex]
+        \includegraphics[width=4cm]{image1.jpg}
+    \end{tabular}
+\end{tabular}
+\end{tcolorbox}
+
+\end{document}

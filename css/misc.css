@@ -1,0 +1,41 @@
+.badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.2em 0.4em;
+    line-height: 1;
+}
+
+/* remove the cards border */
+.card{
+    border: none;
+}
+
+.card > .card-body{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.card > .card-body > .card-text{
+    font-size:  1.5em;
+}
+
+
+/* set the card-title to bold */
+.card  .card-body  .card-title{
+    font-weight: bold;
+}
+
+.card-img-top{
+    height: 15em;
+    object-fit: cover;
+}
+
+#row-title{
+    font-size: 1.5em;
+}
+
+#celok > .col > div:first-child{
+    font-weight: bold;
+}
+
+
